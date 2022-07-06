@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Titillium+Web:ital@1&display=swap');
+
+body {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  background-color: aliceblue;
+  padding: 7% 20%;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 3rem;
+  color: dodgerblue;
+  margin: 0;
+}
+
+.num {
+  font-size: 3rem;
+  color: teal;
+}
+
+button {
+  background-color: transparent;
+  padding: 3px 5px;
+  border: 2px solid gray;
+  border-radius: 4px;
+  color: gray;
+  font-weight: 500;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: auto 5px;
+}
+
+button:focus {
+  border: 2px solid dodgerblue;
+}
