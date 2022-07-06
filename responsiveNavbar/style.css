@@ -20,7 +20,7 @@ body {
   width: 300px;
   height: 600px;
   border-radius: 30px;
-  padding: 35px 5px;
+  padding: 25px 7px 50px;
 }
 
 /* Navbar */
@@ -83,3 +83,20 @@ nav {
   color: rgb(88, 85, 85);
 }
 
+/* Phone pieces */
+.speakerTop {
+  background-color: black;
+  width: 50px;
+  height: 7px;
+  margin: 0 auto 10px;
+  border-radius: 10px;
+}
+
+.homeBtn {
+  background-color: rgb(46, 44, 44);
+  border-radius: 50%;
+  border: 4px solid rgba(75, 73, 73, 0.705);
+  height: 40px;
+  margin: 10px auto;
+  width: 40px;
+}
