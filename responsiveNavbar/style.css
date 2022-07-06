@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+  background-color: #3d3d3d;
+  width: 300px;
+  height: 600px;
+  border-radius: 30px;
+  padding: 35px 5px;
+}
+
+/* Navbar */
+nav {
+  background-color: #fff;
+  height: 95%;
+  border-radius: 2px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main Bar */
+.main-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.brand {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
+.addict {
+  color: steelblue;
+}
+
+.fa-bars {
+  color: steelblue;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Ul list*/
+.list {
+  margin: 0;
+  position: relative;
+  width: 95%;
+  padding: 0;
+  display: none;
+}
+
+.list.active {
+  display: inline-block;
+}
+
+.list .list-items {
+  list-style: none;
+  margin-bottom: 5px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(88, 85, 85, 0.329);
+  padding-bottom: 5px;
+}
+.list .list-items a {
+  text-decoration: none;
+  color: rgb(88, 85, 85);
+}
+
